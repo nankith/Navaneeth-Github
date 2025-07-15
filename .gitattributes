@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+a=input("enter the value of a")
+b=input("enter the value of b")
+op = a+b
+print("the operation yeilds", op)
+
