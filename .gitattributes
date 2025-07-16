@@ -1,10 +1,38 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+# text=auto
+# program for a simple calculator of two variables
 
-a=input("enter the value of a")
-b=input("enter the value of b")
-op = a+b
-print("the value of a entered is:", a)
-print("the value of b entered is:", b)
-print("the operation yeilds", op)
+
+num1=int(input("enter the first number"))
+num2=int(input("enter the second number"))
+
+sum = a + b
+difference = a - b
+product = a * b
+division = float(a / b)
+print("press 1 for Addition")
+print("press 2 for substraction")
+print("press 3 for multiplication")
+print("press 4 for division")
+
+choice("Enter your choice (1/2/3/4):")
+
+if choice == 1:
+	result = num1 + num2
+	print("Result:", result)
+elseif choice == 2:
+	result = num1 - num2
+	print("Result:", result)
+elseif choice == 3:
+	result = num1 * num2
+	print("Result:", result)
+elseif choice == 4:
+	if num2!=0
+		result = num1 / num2
+		print("Result:", result)
+	else
+		print("Error: Cannot divide by Zero, select any other number")
+else:
+	print("Invalid Choice, please choose between 1/2/3/4")
+
 
